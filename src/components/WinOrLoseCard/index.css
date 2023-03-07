@@ -1,0 +1,80 @@
+/* Write your code here. */
+.Win-card {
+  width: 650px;
+  padding: 30px 0px;
+  background-color: #ffffff33;
+  border: 1px #ffffff30 solid;
+  border-radius: 12px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+
+.win-heading {
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.win-score-label {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.win-score {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 900;
+  color: #6a59ff;
+}
+
+.play-again-button {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #ffce27;
+  border-style: none;
+  padding: 15px;
+  border-radius: 20px;
+  color: #3d3d3d;
+}
+
+.win-image {
+  width: 350px;
+  margin-left: 30px;
+}
+
+@media (max-width: 767px) {
+  .Win-card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .win-heading {
+    font-size: 24px;
+  }
+  .win-score-label {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .win-score {
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .play-again-button {
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 14px;
+  }
+  .win-image {
+    width: 100px;
+    margin-left: 0px;
+    order: -1;
+  }
+}
